@@ -117,8 +117,7 @@
 						<version>2.20</version>
 						<configuration>
 							<includes>
-								<include>test.java.sanityTest.basicTest/**.java</include>
-								<include>test.java.sanityTest.premiumTest/**.java</include>
+								<include>test.java.sanity/**.java</include>
 							</includes>
 							<parallel>all</parallel>
 							<perCoreThreadCount>true</perCoreThreadCount>
@@ -139,7 +138,7 @@
 						<version>2.20</version>
 						<configuration>
 							<includes>
-								<include>test.java.regressionTest/**.java</include>
+								<include>test.java.regression/**.java</include>
 							</includes>
 							<parallel>all</parallel>
 							<perCoreThreadCount>true</perCoreThreadCount>
